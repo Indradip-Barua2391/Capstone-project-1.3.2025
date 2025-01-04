@@ -2,8 +2,45 @@
 <html lang="en">
   <head>
     <title>Document</title>
+
+    <style>
+      body {
+        margin: 0;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      }
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      .topnav a {
+        float: left;
+        color: beige;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      .topnav a:hover {
+        background-color: lightyellow;
+        color: deepskyblue;
+      }
+
+      .topnav a.active {
+        background-color: khaki;
+        color: darkcyan;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="topnav">
+      <a href="index.html">home</a>\
+
+      <a href="about.html">about</a>
+      <a href="contactme.html">contact me</a>
+      <a class="active" href="gallery.html">Gallery</a>
+    </div>
     <h1>my Favourite Places</h1>
 
     <div class="carousel-container">
