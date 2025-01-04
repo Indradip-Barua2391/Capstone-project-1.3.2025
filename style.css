@@ -1,0 +1,68 @@
+p {
+  font-size: 20px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+
+  opacity: 0.7;
+
+  background-position: center;
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url("https://thumbs.dreamstime.com/b/autumn-nature-landscape-colorful-forest-autumn-nature-landscape-colorful-forest-morning-sunlight-131400332.jpghttps://thumbs.dreamstime.com/b/autumn-nature-landscape-colorful-forest-autumn-nature-landscape-colorful-forest-morning-sunlight-131400332.jpg");
+
+  min-height: 400px;
+}
+
+.pimg2 {
+  background-image: url("https://cdn.create.vista.com/api/media/small/188002246/stock-photo-beautiful-forest-landscape-in-the-morning");
+
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url("https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=612x612&w=0&k=20&c=i4HYO7xhao7CkGy7Zc_8XSNX_iqG0vAwNsrH1ERmw2Q=");
+
+  min-height: 400px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  opacity: 0.7;
+}
+@media (max-width: 568px) {
+  .pimg1 .pimg2 .pimg3 {
+    background-attachment: scroll;
+  }
+}
