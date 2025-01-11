@@ -4,7 +4,12 @@ p {
 
 .pimg1,
 .pimg2,
-.pimg3 {
+.pimg3,
+.pimg4,
+.pimg5,
+.pimg6,
+.pimg7,
+.pimg8 {
   position: relative;
 
   opacity: 0.7;
@@ -32,6 +37,33 @@ p {
 
 .pimg3 {
   background-image: url("https://www.sylhetbar.com.bd/assets/web/images/logo_blank.png");
+
+  min-height: 400px;
+}
+
+.pimg4 {
+  background-image: url("https://www.eteknix.com/wp-content/uploads/2021/04/1-80.jpg");
+
+  min-height: 400px;
+}
+
+.pimg5 {
+  background-image: url("https://www.eteknix.com/wp-content/uploads/2021/04/1-80.jpg");
+
+  min-height: 400px;
+}
+.pimg6 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf3VNLK9wa5cQ5xs_CD1fmQxP9JtjTKFA1VtBSftkz2rkGdHt5V50RfIRxVSfQQFmaQfQ&usqp=CAU");
+
+  min-height: 400px;
+}
+.pimg7 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf3VNLK9wa5cQ5xs_CD1fmQxP9JtjTKFA1VtBSftkz2rkGdHt5V50RfIRxVSfQQFmaQfQ&usqp=CAU");
+
+  min-height: 400px;
+}
+.pimg8 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf3VNLK9wa5cQ5xs_CD1fmQxP9JtjTKFA1VtBSftkz2rkGdHt5V50RfIRxVSfQQFmaQfQ&usqp=CAU");
 
   min-height: 400px;
 }

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <title>Document</title>
@@ -6,68 +7,143 @@
     <style>
       body {
         margin: 0;
+
         font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
       }
+
       .topnav {
         overflow: hidden;
+
         background-color: #333;
       }
 
       .topnav a {
         float: left;
+
         color: beige;
+
         text-align: center;
+
         padding: 14px 16px;
+
         text-decoration: none;
+
         font-size: 17px;
       }
+
       .topnav a:hover {
         background-color: lightyellow;
+
         color: deepskyblue;
       }
 
       .topnav a.active {
         background-color: khaki;
+
         color: darkcyan;
       }
+
       .footer {
         position: fixed;
+
         bottom: 0px;
+
         right: 0px;
+
         width: 100%;
+
         background-color: #99b7c7;
+
         color: #0e0707;
+
         text-align: center;
       }
+
+      h1 {
+        text-align: center;
+
+        text-decoration: underline;
+
+        text-transform: capitalize;
+      }
+
+      .carousel-container {
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        height: 300px;
+      }
+
+      .myslides {
+        display: none;
+
+        max-height: 100%;
+
+        max-width: 100%;
+      }
     </style>
+
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <div class="topnav">
       <a href="index.html">home</a>\
 
       <a href="about.html">about</a>
+
       <a href="contactme.html">contact me</a>
+
       <a class="active" href="gallery.html">Gallery</a>
 
       <a href="hobby.html">hobby</a>
+
       <a href="gaming.html">gaming</a>
     </div>
-    <h1>my Favourite Places</h1>
 
-    <h2>Section 1</h2>
+    <h1>My Memorable Memories</h1>
 
-    <p>
-      My Favourite places that I've gone there recently is, Sylhet(white stone),
-      Cox bazar, Khagrachari, Bandorban. These place are still beautiful today
-      and they are getting protected by our goverment. (No pictures of the
-      places)
-    </p>
+    <div class="carousel-container">
+      <img
+        class="myslides"
+        src="https://untoldmag.org/wp-content/uploads/2024/08/Palestine-Flag-held-high-in-July-Movement.jpeg"
+        height="300"
+        width="600"
+        alt="Slide 1"
+      />
 
-    <script src="script.js"></script>
+      <img
+        class="myslides"
+        src="https://www.thedailystar.net/sites/default/files/styles/big_202/public/images/2024/08/27/naimur_rahman_16.jpg"
+        height="300"
+        width="600"
+        alt="Slide 2"
+      />
+
+      <img
+        class="myslides"
+        src="https://www.tbsnews.net/sites/default/files/styles/big_3/public/images/2024/08/03/bangladesh_quota_protesters.jpg"
+        height="300"
+        width="600"
+        alt="Slide 3"
+      />
+
+      <img
+        class="myslides"
+        src="https://shuddhashar.com/wp-content/uploads/2024/11/Mikail-1024x538.jpg"
+        height="300"
+        width="600"
+        alt="Slide 4"
+      />
+    </div>
 
     <div class="footer">
       <p>Copyright ® 2025 | Indradip Barua™</p>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
