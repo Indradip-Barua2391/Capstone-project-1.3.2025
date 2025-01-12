@@ -9,7 +9,9 @@ p {
 .pimg5,
 .pimg6,
 .pimg7,
-.pimg8 {
+.pimg8,
+.pimg9,
+.pimg10 {
   position: relative;
 
   opacity: 0.7;
@@ -36,34 +38,44 @@ p {
 }
 
 .pimg3 {
-  background-image: url("https://www.sylhetbar.com.bd/assets/web/images/logo_blank.png");
+  background-image: url("https://i.pinimg.com/550x/d9/31/09/d9310999c9289e774b4794753cd3f7b5.jpg");
 
   min-height: 400px;
 }
 
 .pimg4 {
-  background-image: url("https://www.eteknix.com/wp-content/uploads/2021/04/1-80.jpg");
+  background-image: url("https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2818260/ss_d5c791b660c3623799db9d901e7e99412fd6bdf1.1920x1080.jpg?t=1734008571");
 
   min-height: 400px;
 }
 
 .pimg5 {
-  background-image: url("https://www.eteknix.com/wp-content/uploads/2021/04/1-80.jpg");
+  background-image: url("https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/223750/ss_f322f905cc17c24d803dce4667c88837d1574fe7.1920x1080.jpg?t=1734448756");
 
   min-height: 400px;
 }
 .pimg6 {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf3VNLK9wa5cQ5xs_CD1fmQxP9JtjTKFA1VtBSftkz2rkGdHt5V50RfIRxVSfQQFmaQfQ&usqp=CAU");
+  background-image: url("https://as1.ftcdn.net/v2/jpg/03/10/62/12/1000_F_310621281_foEqKBGtGlNWFQRePgdF5BpLOFyTsnzO.jpg");
 
   min-height: 400px;
 }
 .pimg7 {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf3VNLK9wa5cQ5xs_CD1fmQxP9JtjTKFA1VtBSftkz2rkGdHt5V50RfIRxVSfQQFmaQfQ&usqp=CAU");
+  background-image: url("https://cdn.bdstall.com/product-image/giant_242312.jpg");
 
   min-height: 400px;
 }
 .pimg8 {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf3VNLK9wa5cQ5xs_CD1fmQxP9JtjTKFA1VtBSftkz2rkGdHt5V50RfIRxVSfQQFmaQfQ&usqp=CAU");
+  background-image: url("https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2818260/ss_d5c791b660c3623799db9d901e7e99412fd6bdf1.1920x1080.jpg?t=1734008571");
+
+  min-height: 400px;
+}
+.pimg9 {
+  background-image: url("https://www.travelmate.com.bd/wp-content/uploads/2019/07/Jaflong-Travel.jpg");
+
+  min-height: 400px;
+}
+.pimg10 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4hyQcB23W3UhaQNAfZfo-v39miynho24Lzw&s");
 
   min-height: 400px;
 }
